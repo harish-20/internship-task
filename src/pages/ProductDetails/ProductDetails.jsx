@@ -11,7 +11,7 @@ const ProductDetails = () => {
   const dispatch = useDispatch()
 
   const { id } = useParams()
-  const product = data.find((product) => product.id == id)
+  const product = data.find((product) => product.id === Number(id))
 
   const addToCartHandler = () => {
     dispatch(cartActions.addItem({ ...product, quantity }))
@@ -32,7 +32,7 @@ const ProductDetails = () => {
   return (
     <div className="product-details">
       <h1 className="centered product-title">{product.title}</h1>
-      <img src={product.image} alt="product-image" />
+      <img src={product.image} alt="product" />
       <div className="product-description">
         <h3>Description:</h3>
         <p>{product.description}</p>
