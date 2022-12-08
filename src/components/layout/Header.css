@@ -1,0 +1,81 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: tomato;
+  color: rgb(231, 231, 231);
+}
+
+.header h1 {
+  letter-spacing: 0.02em;
+  font-size: 3em;
+  font-weight: 400;
+  color: rgb(231, 231, 231);
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  position: relative;
+  transition: 0.4s;
+}
+
+header ul a {
+  text-decoration: none;
+}
+
+.header ul:hover {
+  background-color: rgb(243, 61, 29);
+}
+
+.header ul li {
+  border: 1px solid black;
+  padding: 14px 30px 12px 30px;
+  border-radius: 5px;
+  color: black;
+}
+
+.badge {
+  position: absolute;
+  top: 2px;
+  right: 15px;
+  padding: 4px 8px;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+.cart-icon {
+  height: 24px;
+  width: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    padding: 20px 20px;
+  }
+  .header h1 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .header {
+    padding: 20px 50px;
+  }
+  .header h1 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    padding: 20px 140px;
+  }
+}

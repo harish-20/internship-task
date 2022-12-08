@@ -1,0 +1,23 @@
+.product-view {
+  display: grid;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .product-view {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .product-view {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .product-view {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

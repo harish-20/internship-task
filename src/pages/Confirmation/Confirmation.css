@@ -1,0 +1,14 @@
+.confirmation {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.confirmation img {
+  width: 300px;
+}

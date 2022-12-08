@@ -1,0 +1,46 @@
+.product-details {
+}
+
+.product-details .product-title {
+  font-weight: 500;
+  font-size: 2.4em;
+}
+
+.product-details img {
+  float: left;
+  width: 300px;
+  margin: 30px;
+}
+
+.product-description h3 {
+  margin-top: 20px;
+}
+
+.product-details .product-description p {
+  padding: 10px;
+}
+
+.product-price {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.actions {
+  margin-top: 40px;
+}
+
+.actions .cart-actions span {
+  font-weight: 600;
+  padding: 5px 10px;
+}
+
+.actions .cart-actions button {
+  padding: 5px 10px;
+}
+
+.actions .purchase button {
+  font-weight: 400;
+  font-size: 1.4em;
+  margin-top: 30px;
+  padding: 15px 30px;
+}
